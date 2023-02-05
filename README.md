@@ -4,7 +4,7 @@
 
 **由于本项目后端使用Nodejs编写，请在src/assets/utils/env.js中修改后端API地址，其中的avatarUrl为留言墙右上方小图标**
 
-**Web文件夹为前端，API文件夹为后端，前端配置文件位置为：src/assets/utils/env.js，后端配置文件位置为：config/default.js**
+**Web文件夹为前端，API文件夹为后端，前端配置文件位置为：src/assets/utils/env.js，后端配置文件位置为：config/default.js，并且需要导入相关sql文件**
 - 本项目采用前后端分离方式编写，前端使用Vue3改写，后端使用Nodejs编写
 - 本项目改写自B站UP主**yike陈**，并在其视频基础上增添移动端与适当改写
 - 如果喜欢该项目就给个Star吧！
