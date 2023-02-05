@@ -1,0 +1,34 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.5;
+  color: #202020;
+  font-size: 14px;
+  background-color: #FFFFFF;
+  transition: all 0.3s;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+input,
+textarea {
+  outline: none;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>照片</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.281144 0 0 0 0 0.722260 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-2">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 0.514832 0 0 0 0 0.551544 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+        <filter color-interpolation-filters="auto" id="filter-3">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.972549 0 0 0 0 0.356863 0 0 0 0 0.431373 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="留言墙" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="空页面" transform="translate(-751.000000, -691.000000)">
+            <g id="便签纸备份" transform="translate(625.000000, 691.000000)">
+                <g id="照片" transform="translate(126.000000, 0.000000)">
+                    <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="100" height="100"></rect>
+                    <g id="编组-3备份" transform="translate(48.847867, 43.406255) rotate(20.000000) translate(-48.847867, -43.406255) translate(24.474767, 11.406255)">
+                        <rect id="矩形" fill="#46738E" x="0" y="0" width="48" height="64"></rect>
+                        <text id="HOME" font-family="SnellRoundhand-Black, Snell Roundhand" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">
+                            <tspan x="2.74620067" y="58.4248634">HOME</tspan>
+                        </text>
+                        <rect id="矩形备份-6" fill="#D3EEFF" x="3" y="3" width="42" height="42"></rect>
+                        <g filter="url(#filter-1)" id="云端,云,云服务">
+                            <g transform="translate(7.000000, 3.000000)">
+                                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="31" height="31"></rect>
+                                <path d="M31,18.292663 C31,23.1021739 27.0932005,27 22.2808714,27 L7.75,27 C3.42526377,26.7758152 0,23.5714674 0,19.667663 C0,16.6964674 1.98671356,14.1377717 4.8426143,12.9869565 C5.43923408,12.7478261 5.86625635,12.2247283 5.99951153,11.6029891 C6.80509965,7.83668478 10.3151622,5 14.5308714,5 C17.6381399,5 20.3577569,6.53940217 21.9023056,8.85597826 C22.2051583,9.31331522 22.6927511,9.61820652 23.2409144,9.69891304 C27.6383353,10.3565217 31,13.9464674 31,18.292663 Z" id="路径" fill="#000000" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="编组-3" transform="translate(53.497267, 58.278647) rotate(-18.000000) translate(-53.497267, -58.278647) translate(29.497267, 26.278647)">
+                        <rect id="矩形" fill="#A7535C" x="0" y="-4.54747351e-13" width="48" height="64"></rect>
+                        <text id="LOVE" font-family="SnellRoundhand-Black, Snell Roundhand" font-size="12" font-weight="700" letter-spacing="1" fill="#FFFFFF">
+                            <tspan x="4.74620067" y="58.4248634">LOVE</tspan>
+                        </text>
+                        <rect id="矩形备份-6" fill="#FFD7DB" x="3" y="3" width="42" height="42"></rect>
+                        <g filter="url(#filter-2)" id="实心桃心备份">
+                            <g transform="translate(9.357960, 13.739926)">
+                                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                                <path d="M14.7092892,4.28673003 C12.5483558,4.28673003 11.0000892,6.23419669 10.3327559,7.26419669 C9.66488921,6.23419669 8.11755587,4.28673003 5.95635587,4.28673003 C2.85528919,4.28673003 0.333022528,7.08139669 0.333022528,10.51633 C0.333022528,12.1220634 1.42235587,14.4248634 2.74488919,15.6296634 C4.57422253,17.9801967 9.71688919,22.21113 10.3519559,22.21113 C10.9980892,22.21113 16.0303559,18.0624634 17.8928892,15.6580634 C19.2384892,14.4316634 20.3330225,12.1260634 20.3330225,10.51633 C20.3330225,7.08139669 17.8106225,4.28673003 14.7092892,4.28673003 Z" id="路径" fill="#272635" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                        <g filter="url(#filter-3)" id="实心桃心备份-2">
+                            <g transform="translate(17.642040, 15.260074)">
+                                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="21" height="21"></rect>
+                                <path d="M15.09508,2.17938 C12.8261,2.17938 11.20042,4.22421999 10.49972,5.30571999 C9.79846001,4.22421999 8.17376001,2.17938 5.90450001,2.17938 C2.64837999,2.17938 0,5.11377999 0,8.72046 C0,10.40648 1.14380001,12.82442 2.53245999,14.08946 C4.45326,16.55752 9.85305999,21 10.51988,21 C11.19832,21 16.4822,16.6439 18.43786,14.11928 C19.85074,12.83156 21,10.41068 21,8.72046 C21,5.11377999 18.35148,2.17938 15.09508,2.17938 Z" id="路径" fill="#272635" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
