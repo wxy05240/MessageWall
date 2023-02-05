@@ -1,0 +1,66 @@
+// ----------Colors----------
+@primary-color : #3B73F0; //全局主色
+@link-color : #1890ff ; //链接色
+@success-color : #22BF87; //成功色
+@warning-color : #F67770; //警告色
+@error-color : #F35248; //错误色
+@like : #F67770;//喜欢
+// ----------中性色----------
+@gray-1 : #202020; 
+@gray-2 : #5B5B5B;
+@gray-3 : #949494;
+@gray-9 : #F6F6F8;
+@gray-10 : #FFFFFF;
+
+// ----------Font----------
+@size-12 : 12px; 
+@size-14 : 14px; 
+@size-16 : 16px; 
+
+// ----------间距----------
+@padding-4 : 4px;
+@padding-8 : 8px;
+@padding-12 : 12px;
+@padding-20 : 20px;
+
+// ----------动画----------
+@tr : all 0.3s;
+// ----------全局控制----------
+body{
+    padding: 0px;
+    margin: 0px;
+    line-height: 1.5;
+    color : @gray-1;
+    font-size: @size-14;
+    background-color: @gray-10;
+    transition: all .3s;
+    font-family: Avenir,Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+input,textarea{
+    outline: none;
+}
