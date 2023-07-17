@@ -13,20 +13,20 @@
 
 ## 部署教程
 ### 后端
-将后端文件导入网站，使用npm install命令安装模块
+- 将后端文件导入网站，使用npm install命令安装模块
 ![导入后端文件](https://img.5i21.cn/LightPicture/2023/07/0bea3485c3077674.png)
 ![Alt text](https://img.5i21.cn/LightPicture/2023/07/00959330117886b2.png)
-将config文件夹中的walls数据库文件导入后端数据库
+- 将config文件夹中的walls数据库文件导入后端数据库
 ![导入数据库](https://img.5i21.cn/LightPicture/2023/07/181b36b753e22058.png)
-之后配置反向代理（防火墙放行）
+- 之后配置反向代理（防火墙放行）
 ![配置反向代理，端口取决于config里面port参数](https://img.5i21.cn/LightPicture/2023/07/729a876ea023dfce.png)
-之后使用pm2持久化运行
+- 之后使用pm2持久化运行
 ![持久化运行](https://img.5i21.cn/LightPicture/2023/07/0e34b01e6645ec0a.png)
 
 ## 前端
-首先npm install安装相关包，之后修改env.js文件的baseUrl与baseImgPath为后端API地址、avatarUrl为头像地址
+- 首先npm install安装相关包，之后修改env.js文件的baseUrl与baseImgPath为后端API地址、avatarUrl为头像地址
 ![安装相关包](https://img.5i21.cn/LightPicture/2023/07/c506983796661f2d.png)
-之后npm run build构建后直接上传服务器即可使用
+- 之后npm run build构建后直接上传服务器即可使用
 
 ## 项目地址
 **Demo地址：[一刻时空-苦苦的码人](https://www.5i21.cn/walls)**
