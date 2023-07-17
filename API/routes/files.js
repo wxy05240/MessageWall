@@ -8,7 +8,7 @@ const random = (min,max) => {
 const storage = multer.diskStorage({
     //保存路径
     destination : function(req,file,cb){
-        cb(null,'./data/photo')
+        cb(null,'./assets/wallimgs')
         //不是相对路径
     },
     filename : (req,file,cb) => {
@@ -19,7 +19,7 @@ const storage = multer.diskStorage({
 })
 const upload = multer({storage : storage })
 router.post('/profile',upload.single('file'),(req,res)=>{
-    let imgurl = `/photo/${req.file.filename}`
+    let imgurl = `/assets/wallimgs/${req.file.filename}`
     res.send(imgurl)
 })
 

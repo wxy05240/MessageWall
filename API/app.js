@@ -3,11 +3,21 @@ const path = require('path')
 const ejs = require('ejs')
 const config = require('./config/default')
 const router = require('./routes/files')
+const routerApi = require('./routes/index')
 const app = express()
-
-//静态资源路径
-app.use(express.static(__dirname + '/views'))
-app.use(express.static(__dirname + '/data'))
+const fs = require('fs')
+// 递归创建路径
+const mkdirs = (dirpath) => {
+    console.log(path.dirname(dirpath))
+    if (!fs.existsSync(path.dirname(dirpath))) {
+        mkdirs(path.dirname(dirpath))
+    }
+    fs.mkdirSync(dirpath)
+    console.log('路径创建成功')
+}
+var img_dir = path.join(__dirname, './assets/wallimgs/')
+fs.existsSync(img_dir) == false ? mkdirs(img_dir) : console.log('路径已经存在')
+app.use('/assets/wallimgs',express.static(path.join(__dirname,'./assets/wallimgs')))
 //配置跨域
 app.all('*',(req,res,next) => {
     res.header('Access-Control-Allow-Origin','*')
@@ -34,8 +44,8 @@ app.set('view engine','html')
 app.use(express.json())
 app.use(express.urlencoded({ extended : true }))
 //引入路由
-require('./routes/index')(app)
-app.use(router)
+app.use('/walls',routerApi)
+app.use('/walls',router)
 // require('./routes/files')(app)
 app.listen(config.port,() => {
     console.log(`我启动了端口${config.port}`)

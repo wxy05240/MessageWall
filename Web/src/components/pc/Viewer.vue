@@ -5,7 +5,7 @@
             </div>
             <div class="viewer-photo">
 
-                <img :src="'https://api.5i21.cn'  + photo[number] " alt=''>
+                <img :src="baseImgPath  + photo[number] " alt=''>
             </div>
             <div class="switch sw-left" @click="changeNumber(0)" v-show="number > 0">
                 <span class="iconfont icon-xiangzuo"></span>
@@ -19,7 +19,7 @@
 </template>
 <script setup>
 import { computed } from 'vue';
-import { baseUrl } from '@/utils/env';
+import { baseImgPath } from '@/utils/env';
 const props = defineProps({
     photos: {
         default: []
