@@ -29,7 +29,7 @@
 - 之后npm run build构建后直接上传服务器即可使用
 
 ## 项目地址
-**Demo地址：[一刻时空-苦苦的码人](https://www.5i21.cn/walls)**
+**Demo地址：[一刻时空-苦苦的码人](https://wall.5i21.cn/)**
 ## 项目截图
 ### PC端
 ![留言墙](https://img.5i21.cn/LightPicture/2023/02/ec3624a0132679e9.png)
